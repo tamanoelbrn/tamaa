@@ -1,149 +1,166 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio</title>
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project sultoni</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background-color: #0f172a;
-      color: #e2e8f0;
+  body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            border-left: 4px solid #333;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+
+        .about p, .skills ul li, .project-item {
+            font-size: 16px;
+        }
+
+        .skills ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .project-item {
+            background:#e9e9e9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background:#4edc7e;
+            color: white;
+            margin-top: 20px;
+        }
+  
+        * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
     }
 
+    body {
+      background-color: #f7f7f7;
+      color: #000;
+    }
+
+    /* Navbar Hitam Atas */
+    .navbar {
+      background-color:  #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .navbar h1 {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    /* Header Biru */
     header {
-      background-color: #1e3a8a;
-      padding: 20px;
-      text-align: center;
-      font-size: 26px;
+      background-color: #4edc7e;
       color: white;
-      font-weight: bold;
+      padding: 10px 0;
     }
 
-    nav {
+    .nav-links {
       display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 15px;
-      background-color: #1e3a8a;
+      justify-content: space-around;
+      align-items: center;
     }
 
-    nav a {
-      color: #e2e8f0;
+    .nav-links a {
+      color: white;
       text-decoration: none;
-      padding: 8px 14px;
-      border-radius: 6px;
-      transition: 0.3s;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      background-color: #1e3a8a;
-      transform: scale(1.05);
-    }
-
-    .container {
-      width: 90%;
-      max-width: 900px;
-      margin: 30px auto;
-      background-color: #1e293b;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.3);
-    }
-
-    h2 {
-      color: #1e3a8a;
-      border-bottom: 2px solid #334155;
-      padding-bottom: 5px;
-    }
-
-    .project-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    .project {
-      background-color: #334155;
-      padding: 15px;
-      border-radius: 10px;
-      text-align: center;
-    }
-
-    .project img {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-
-    .project button {
-      background-color: #2563eb;
-      border: none;
-      padding: 8px 12px;
-      color: white;
-      border-radius: 6px;
-      cursor: pointer;
+      font-weight: bold;
       transition: 0.3s;
     }
 
-    .project button:hover {
-      background-color: #1d4ed8;
+    .nav-links a:hover {
+      text-decoration: underline;
+      transform: scale(1.1);
     }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #1e3a8a;
-      margin-top: 40px;
-      color: white;
-    }
+    
+    
   </style>
 </head>
-
 <body>
 
-<header>Portofolio</header>
-
-<nav>
-  <a href="index.html">Home</a>
-  <a href="tentang.html">Tentang Saya</a>
-  <a href="portofolio.html">Portofolio</a>
-</nav>
-
-<div class="container">
-  <h2>Project Saya</h2>
-
-  <div class="project-list">
-
-    <div class="project">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbTfOBd-uSthpZNSWhfebX-ykwk25yxZGQhy7pTTzsLA&s=10">
-      <h3>Foto 1</h3>
-    </div>
-
-    <div class="project">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0B3AKLz419K-bPZ9GS-Y5jOreRy616EWkpPY2PK1jg&s=10">
-      <h3>Foto 2</h3>
-    </div>
-
-    <div class="project">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjaO4C0AqXVCVTUdrWHlvpECIX6iGOG4gUcoACb4SYNg&s=10">
-      <h3>Foto 3</h3>
-    </div>
-
-    <div class="project">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCojHnxTdyYaxukbn1XjtN4aF1Gal6Y4a14_MKYfPBog&s=10">
-      <h3>Foto 4</h3>
-    </div>
-
+    <!-- 🔹 Navbar di paling atas -->
+  <div class="navbar">
+    <h1>PORTOFOLIO SULTONI</h1>
   </div>
-</div>
 
-<footer>© 2024 Pratama. Semua Hak Dilindungi.</footer>
+  <!-- 🔹 Menu Navigasi -->
+  <header>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tentang-1.html">Tentang Saya</a>
+      <a href="Portofolio.html">Portofolio</a>
+    </div>
+  </header>
 
+    <div class="container">
+        <h2>Tentang Saya</h2>
+        <div class="about">
+            <p>
+                Saya adalah siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang tertarik di bidang 
+                pemrograman web dan pengembangan aplikasi. Saya suka mempelajari hal baru dan terus 
+                meningkatkan kemampuan coding saya.
+            </p>
+        </div>
+
+        <h2>Kemampuan</h2>
+        <div class="skills">
+            <ul>
+                <li>HTML Dasar</li>
+                <li>CSS Dasar</li>
+           </ul>
+        </div>
+
+        <h2>Projek Saya</h2>
+        <div class="projects">
+            <div class="project-item">
+                <h3>Website Portfolio</h3>
+                <p>Website sederhana untuk menampilkan data diri dan kemampuan saya.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Tampilan Website Sederhana</h3>
+                <p>Website Sederhana Untuk Menampilkan Suatu Aplikasi atau Web.</p>
+            </div>
+    <footer>
+        © 2025 | Portfolio SULTONI RPL
+    </footer>
+
+  
+  
 </body>
 </html>
